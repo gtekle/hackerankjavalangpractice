@@ -5,6 +5,7 @@ public class NumberFormatter {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Type in a double precisin number: ");
         double payment = scanner.nextDouble();
         scanner.close();
         
